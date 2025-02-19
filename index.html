@@ -9,21 +9,43 @@
 </head>
 <body>
     <header>
-        <h1><a href="./index.html">NE</a></h1>
-        <nav>
-            <ul>
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./pages/equipos.html">Equipos</a></li>
-                <li><a href="./pages/torneo.html">Torneo</a></li>
-                <li><a href="./pages/calendario.html">Calendario</a></li>
-                <li><a href="./pages/unete.html">Unete</a></li>
-            </ul>
-        </nav> 
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-fluid">
+                    <a class="navbar-brand" href="./index.html">NE</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="./pages/equipos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Equipos</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./pages/equipos.html#halcones">Halcones</a></li>
+                                <li><a class="dropdown-item" href="./pages/equipos.html#pumas">Pumas</a></li>
+                                <li><a class="dropdown-item" href="./pages/equipos.html#aguilas">Aguilas</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/torneo.html">Torneo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/calendario.html">Calendario</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/unete.html">Unete</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
     <main>
         <section class="s1_index">
             <div class="contenido">
-                <h2>Club Atlético<br/>Noreste</h2>
+                <h1>Club Atlético<br/>Noreste</h1>
                 <a href="https://instagram.com" target="@clubnoreste" class="link">Instagram</a>
             </div>
             <div class="imagen_s1_index">

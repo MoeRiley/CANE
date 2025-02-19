@@ -3,51 +3,13 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* header */
-header {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
-    width: 100%;
-    background-color: #333;
-    color: white;
-    z-index: 1000;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    top: 0;
+/* Header */
+
+.container-fluid a {
+    font-weight: bold;
 }
 
-header h1 a {
-    margin-left: 70px;
-    text-decoration: none;
-    color: white;
-    padding: 5px 10px;
-    transition: background-color 0.3s;
-}
-
-/* menú */
-header ul {
-    list-style: none;
-    display: flex;
-}
-
-header ul li {
-    margin-right: 30px;
-}
-
-header ul li a {
-    text-decoration: none;
-    color: white;
-    padding: 5px 10px;
-    transition: background-color 0.3s;
-}
-
-header ul li a:hover {
-    background-color: #555;
-    border-radius: 4px;
-}
-
-/* Base para main y section */
+/* Base para main y sections */
 main {
     margin-top: 70px;
     margin-bottom: 70px;
@@ -60,26 +22,28 @@ section {
 }
 
 /* Index */
-/* .s1_index */
-/* div class contenido */
+
+/* S1 */
 .contenido {
     position: absolute;
-    top: 50%;
+    top: auto;
+    margin-top: 14%;
     left: 20%;
     transform: translateY(-50%);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     color: white;
-    z-index: 2;
+    z-index: 1;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.contenido h2 {
+.contenido h1 {
     margin: 0 0 20px;
     font-size: 50px;
     font-weight: bold;
+    text-align: center;
 }
 
 .contenido .link {
@@ -96,14 +60,13 @@ section {
     background-color: darkblue;
 }
 
-/* div class imagen_s1_index */
 .imagen_s1_index {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 1;
+    z-index: -1;
     overflow: hidden;
 }
 
@@ -114,7 +77,7 @@ section {
     filter: brightness(70%);
 }
 
-/* .s2_index */
+/* S2 */
 .s2_index {
     text-align: center;
     padding: 20px;
@@ -166,18 +129,17 @@ footer section {
     height: 100px;
     background-color: #333;
     color: white;
-    z-index: 1000;
+    z-index: 1;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 footer section div a {
     text-decoration: none;
     color: white;
-    transition: background-color 0.3s;
 }
 
 /* Equipos */
-article.equipo {
+.equipo {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -187,39 +149,39 @@ article.equipo {
     padding: 20px;
 }
 
-article.equipo img {
+.equipo img {
     width: 50%;
     height: auto;
     object-fit: cover;
 }
 
-article.equipo .card {
+.card {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     width: 50%;
     padding: 20px;
+    background-color: aqua;
 }
 
-article.equipo h2 {
+.equipo h2 {
     font-size: 36px;
     margin: 0 0 20px;
 }
 
-article.equipo .plantilla {
+.plantilla {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-article.equipo .plantilla li {
+.plantilla li {
     font-size: 18px;
     margin-bottom: 10px;
 }
 
 /* Torneo */
-
 .torneo {
     display: flex;
     justify-content: center;
@@ -227,7 +189,6 @@ article.equipo .plantilla li {
 }
 
 /* Calendario */
-
 .calendario {
     display: flex;
     justify-content: center;
@@ -235,7 +196,6 @@ article.equipo .plantilla li {
 }
 
 /* Unete */
-
 .main_unete {    
     margin-bottom: 150px;
 }
@@ -252,35 +212,4 @@ article.equipo .plantilla li {
 
 iframe {
     padding: 15%;
-}
-
-/* Media query para tabletas */
-@media (min-width: 600px) {
-
-}
-
-/*Media Query parq movil*/
-@media (max-width: 600px) {
-    .row {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .col {
-        width: 100%;
-    }
-
-    iframe {
-        width: 100%;
-        height: 400px;
-    }
-}
-
-
-/* Media query para computadoras de escritorio */
-@media (min-width: 1024px) {
-    .tabla_main {
-        padding-left: 10%;
-        padding-right: 10%;
-    }
 }

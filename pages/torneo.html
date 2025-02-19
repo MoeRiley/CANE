@@ -9,43 +9,65 @@
 </head>
 <body>
     <header>
-        <h1><a href="../index.html">NE</a></h1>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../pages/equipos.html">Equipos</a></li>
-                <li><a href="../pages/torneo.html">Torneo</a></li>
-                <li><a href="../pages/calendario.html">Calendario</a></li>
-                <li><a href="../pages/unete.html">Unete</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html">NE</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="../pages/equipos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Equipos</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="../pages/equipos.html#halcones">Halcones</a></li>
+                                <li><a class="dropdown-item" href="../pages/equipos.html#pumas">Pumas</a></li>
+                                <li><a class="dropdown-item" href="../pages/equipos.html#aguilas">Aguilas</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/torneo.html">Torneo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/calendario.html">Calendario</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/unete.html">Unete</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav> 
     </header>
     <main class="tabla_main">
         <h2 class="torneo">Temporada 2024/25</h2>
         <table class="table table-striped table-hover">
-            <tr> <!--tr fila-->
-                <th>Posicion</th> <!--th encabezados-->
+            <tr>
+                <th>Posicion</th>
                 <th>Equipos</th>
                 <th>Ganados</th>
                 <th>Perdidos</th>
                 <th>Puntos</th>
             </tr>
             <tr>
-                <td>1</td> <!--td celdas-->
+                <td>1°</td>
                 <td>Aguilas</td>
                 <td>2</td>
                 <td>0</td>
                 <td>2</td>
             </tr>
             <tr>
-                <td>2</td>
+                <td>2°</td>
                 <td>Pumas</td>
                 <td>1</td>
                 <td>1</td>
                 <td>1</td>
             </tr>
             <tr>
-                <td>3</td>
+                <td>3°</td>
                 <td>Halcones</td>
                 <td>0</td>
                 <td>2</td>
@@ -64,5 +86,6 @@
             </div>
         </section>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
