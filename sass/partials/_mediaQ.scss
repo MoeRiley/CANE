@@ -1,0 +1,12 @@
+/* Media query para computadoras de escritorio */
+@media (min-width: 1024px) {
+    .tabla_main {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .card {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
