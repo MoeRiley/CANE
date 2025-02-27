@@ -1,1 +1,9 @@
-$letras-blancas: #f9f9f9
+//variable
+$letras-blancas: #f9f9f9;
+
+//mixin
+@mixin flex ($direction,$align){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
