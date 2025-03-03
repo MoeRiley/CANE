@@ -141,9 +141,6 @@ footer .mb-2 a {
 }
 
 /* Torneo */
-.tabla_main {
-  margin-bottom: 15%;
-}
 .tabla_main .torneo {
   display: flex;
   justify-content: center;
@@ -173,7 +170,7 @@ footer .mb-2 a {
   padding: 15%;
 }
 
-/* Media query para computadoras de escritorio */
+/* Media query para desktop */
 @media (min-width: 1024px) {
   .tabla_main {
     padding-left: 10%;
