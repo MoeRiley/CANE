@@ -215,5 +215,10 @@ footer .mb-2 a {
     background-color: darkblue;
   }
 }
+@media (max-width: 1000px) {
+  .section_unete {
+    margin-bottom: 40%;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
