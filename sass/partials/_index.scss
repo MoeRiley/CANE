@@ -10,7 +10,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        color: white;
+        color: $letras-blancas;
         z-index: 1;
         text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
         h1 {
@@ -21,7 +21,7 @@
         }
         .link {
             text-decoration: none;
-            color: white;
+            color: $letras-blancas;
             background-color: blue;
             padding: 10px 20px;
             border-radius: 4px;
@@ -58,6 +58,12 @@
     align-items: center;
     height: auto;
     h3 {
+        font-size: 36px;
+    }
+    .e1 {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
         font-size: 36px;
     }
     .articles-container {
